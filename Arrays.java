@@ -13,10 +13,11 @@ import java.util.Scanner;
 			  {
 				arr[i]= sc.nextInt();
 			  }
-			
+
+			System.out.println("array is:")
 			for(int i=0;i<size;i++)
 			  {
-				System.out.println("array is:"+arr[i]);
+				System.out.print(arr[i]);
 			  }
 	}
     }			
